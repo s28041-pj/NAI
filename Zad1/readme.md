@@ -1,3 +1,5 @@
+![game_screen_1.png](game_screen_1.png)
+
 Game rules:
 
 Each player moves one square at a time in any direction (diagonal, horizontal, or vertical).
@@ -22,6 +24,7 @@ Features:
 - Maximum AI depth: 4
 - Terminal-friendly board display with proper alignment
 
+![game_screen_2.png](game_screen_2.png)
 Enter moves in the following formats:
 
 A1 or 1A
@@ -34,6 +37,8 @@ If you enter only one token, the program will ask for the missing part.
 
 Enter q to quit the game.
 
+![game_screen_3.png](game_screen_3.png)
+
 Notes:
 
 AI can play at different difficulty levels (max depth = 4).
@@ -41,3 +46,5 @@ AI can play at different difficulty levels (max depth = 4).
 AI vs AI allows observing automatic matches.
 
 The board and player markers are colored in the terminal (if ANSI colors are supported).
+
+![game_screen_4.png](game_screen_4.png)
