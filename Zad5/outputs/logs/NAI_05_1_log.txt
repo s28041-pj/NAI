@@ -1,0 +1,49 @@
+TASK 5
+Dataset: Drugs and Side Effects
+Problem: Classification of side effects (mild vs severe)
+
+Class distribution:
+Side_Effects
+1    559
+0    441
+Name: count, dtype: int64
+
+Decision Tree
+Accuracy: 0.63
+              precision    recall  f1-score   support
+
+           0       0.58      0.57      0.57        88
+           1       0.67      0.68      0.67       112
+
+    accuracy                           0.63       200
+   macro avg       0.62      0.62      0.62       200
+weighted avg       0.63      0.63      0.63       200
+
+
+SVM (RBF)
+Accuracy: 0.74
+              precision    recall  f1-score   support
+
+           0       0.70      0.73      0.71        88
+           1       0.78      0.75      0.76       112
+
+    accuracy                           0.74       200
+   macro avg       0.74      0.74      0.74       200
+weighted avg       0.74      0.74      0.74       200
+
+
+Neural Network (MLP – TensorFlow/Keras)
+Accuracy: 0.68
+              precision    recall  f1-score   support
+
+           0       0.62      0.68      0.65        88
+           1       0.73      0.68      0.70       112
+
+    accuracy                           0.68       200
+   macro avg       0.68      0.68      0.68       200
+weighted avg       0.68      0.68      0.68       200
+
+
+Confusion matrix saved to: outputs/plots/NAI_05_1_confusion_matrix.png
+
+END
